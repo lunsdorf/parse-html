@@ -33,9 +33,6 @@ async function testOne(dir) {
   return `√ ${relative(__dirname, dir)}`;
 }
 
-Promise.all([
-  testAll(resolve(__dirname, "./fixture/basic")),
-  testAll(resolve(__dirname, "./fixture/data-attributes"))
-])
-.then(suites => suites.map(suite => suite.join("\n")).join("\n\n"))
-.then(console.log.bind(console), console.error.bind(console));
+testAll(resolve(__dirname, "./fixture"))
+  .then(suites => suites.join("\n"))
+  .then(console.log.bind(console), console.error.bind(console));
