@@ -28,8 +28,3 @@ console.log(ast);
 ## Motivation
 
 Just for fun and curiosity.
-
-## Known Issues
-
-- ⚠️ parses HTML content inside `<textarea>`
-- ⚠️ fails parsing inline `<script>`

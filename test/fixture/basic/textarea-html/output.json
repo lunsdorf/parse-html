@@ -1,0 +1,6 @@
+[
+  { "type": "element", "tagName": "textarea", "attributes": {}, "childNodes": [
+    { "type": "text", "text": "\n  <div>Value</div>\n" }
+  ] },
+  { "type": "text", "text": "\n" }
+]

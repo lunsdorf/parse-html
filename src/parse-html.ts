@@ -367,6 +367,18 @@ function elementOpen(cursor: Cursor, parents: HTMLFragmentNode[]): void {
     parents.push(node);
   }
 
+  // Read complete content for special tags.
+  if ("script" === tagName || "textarea" === tagName) {
+    const content = readCharsUntil(cursor, "</" + tagName, true, false);
+
+    if (0 < content.length) {
+      appendChildNode(parents, {
+        type: HTMLNodeType.Text,
+        text: content,
+      });
+    }
+  }
+
   superfluous(cursor, parents);
 }
 
@@ -393,6 +405,13 @@ export default function parseHTML(html: string): HTMLNode[] {
     length: html.length,
     offset: 0,
   };
+
+  // Skip doctype definition.
+  if ("<!" === readChars(cursor, 2, false)) {
+    cursor.offset = Math.min(9, cursor.length); // length of `<!DOCTYPE`
+
+    readCharsUntil(cursor, "<", true, false);
+  }
 
   superfluous(cursor, [fragment]);
 

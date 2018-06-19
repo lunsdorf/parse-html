@@ -1,0 +1,6 @@
+[
+  { "type": "element", "tagName": "script", "attributes": {}, "childNodes": [
+    { "type": "text", "text": "\n  console.log(0 < 1, \"<\\/script>\")\n" }
+  ] },
+  { "type": "text", "text": "\n" }
+]

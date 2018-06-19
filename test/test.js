@@ -17,12 +17,18 @@ async function testAll(dir) {
 }
 
 async function testOne(dir) {
-  const [input, output] = await Promise.all([
+  const [input, expected] = await Promise.all([
     readFileAsync(resolve(dir, "./input.html")).then(content => content.toString("utf-8")),
     readFileAsync(resolve(dir, "./output.json")).then(content => JSON.parse(content.toString("utf-8")))
   ]);
 
-  assert.deepEqual(parseHTML(input), output);
+  const result = parseHTML(input);
+
+  try {
+    assert.deepEqual(result, expected);
+  } catch (ex) {
+    throw new Error(`Assertion failed:\n\nExpected:\n${JSON.stringify(expected)}\n\nReceived:\n${JSON.stringify(result)}\n`);
+  }
 
   return `√ ${relative(__dirname, dir)}`;
 }

@@ -1,0 +1,28 @@
+[
+  { "type": "element", "tagName": "html", "attributes": { "lang": "en" }, "childNodes": [
+    { "type": "text", "text": "\n    " },
+    { "type": "element", "tagName": "head", "attributes": {}, "childNodes": [
+      { "type": "text", "text": "\n        " },
+      { "type": "element", "tagName": "meta", "attributes": { "charset": "UTF-8" }, "childNodes": [] },
+      { "type": "text", "text": "\n        " },
+      { "type": "element", "tagName": "meta", "attributes": { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }, "childNodes": [] },
+      { "type": "text", "text": "\n        " },
+      { "type": "element", "tagName": "meta", "attributes": { "http-equiv": "X-UA-Compatible", "content": "ie=edge" }, "childNodes": [] },
+      { "type": "text", "text": "\n        " },
+      { "type": "element", "tagName": "title", "attributes": {}, "childNodes": [
+        { "type": "text", "text": "Title" }
+      ] },
+      { "type": "text", "text": "\n    " }
+    ] },
+    { "type": "text", "text": "\n    " },
+    { "type": "element", "tagName": "body", "attributes": {}, "childNodes": [
+      { "type": "text", "text": "\n        " },
+      { "type": "element", "tagName": "div", "attributes": {}, "childNodes": [
+        { "type": "text", "text": "Body" }
+      ] },
+      { "type": "text", "text": "\n    " }
+    ] },
+    { "type": "text", "text": "\n" }
+  ] },
+  { "type": "text", "text": "\n" }
+]
