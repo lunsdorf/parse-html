@@ -1,0 +1,4 @@
+[
+  { "type": "element", "tagName": "div", "attributes": { "data-test": "<span>Hello<br/>Test</span>"}, "childNodes": [] },
+  { "type": "text", "text": "\n" }
+]

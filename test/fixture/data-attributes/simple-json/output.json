@@ -1,0 +1,4 @@
+[
+  { "type": "element", "tagName": "div", "attributes": { "data-test": "{\"a\": \"a\", \"b\": 1, \"c\": true, \"d\": null}"}, "childNodes": [] },
+  { "type": "text", "text": "\n" }
+]

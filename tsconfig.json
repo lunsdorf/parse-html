@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "isolatedModules": false,
+    "lib": [
+      "dom",
+      "es5",
+      "es2015",
+      "scripthost"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "outDir": "lib/",
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": true,
+    "rootDir": "src/",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015"
+  },
+  "exclude": [
+    "node_modules/"
+  ],
+  "include": [
+    "src/",
+    "typings/**/*.d.ts",
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  { "type": "element", "tagName": "area", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "base", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "br", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "col", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "command", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "embed", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "hr", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "img", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "input", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "keygen", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "link", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "menuitem", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "meta", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "param", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "source", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "track", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "wbr", "attributes": {}, "childNodes": [] },
+  { "type": "text", "text": "\n" }
+]

@@ -1,0 +1,7 @@
+[
+  { "type": "element", "tagName": "div", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "span", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "br", "attributes": {}, "childNodes": [] },
+  { "type": "element", "tagName": "div", "attributes": {}, "childNodes": [] },
+  { "type": "text", "text": "\n" }
+]

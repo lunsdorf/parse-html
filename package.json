@@ -1,0 +1,15 @@
+{
+  "name": "@lunsdorf/parse-html",
+  "version": "0.1.0",
+  "description": "Parse HTML to an AST representation",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "lint": "tslint -p ./tsconfig.json -c ./tslint.json ./src/**/*.ts*",
+    "test": "ts-node test/test.js"
+  },
+  "devDependencies": {
+    "ts-node": "^6.1.1",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
