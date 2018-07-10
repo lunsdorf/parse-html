@@ -8,7 +8,7 @@
     "test": "ts-node test/test.js"
   },
   "devDependencies": {
-    "ts-node": "^6.1.1",
+    "ts-node": "^7.0.0",
     "tslint": "^5.10.0",
     "typescript": "^2.9.2"
   }
